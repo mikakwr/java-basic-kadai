@@ -30,7 +30,7 @@ public class Jyanken_Chapter26 {
 	public String getRandom() {
 		String[] challenger = { "r", "s", "p" };
 
-		int c = (int) (Math.floor(Math.random() * 2));
+		int c = (int) (Math.floor(Math.random() * 3));
 
 		return challenger[c];
 
